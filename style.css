@@ -1,0 +1,46 @@
+nav {
+  display: flex;
+  height: 100px;
+  background-color: greenyellow;
+
+}
+
+a.navbar-brand {
+  font-size: 20pt;
+  text-align: center;
+  color: darkcyan;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.container-nota {
+  position: relative;
+  /* display: bloc/k; */
+  width: 100%;
+}
+
+.container-sm {
+  display: flex;
+  height: 2px;
+}
+
+.container-sm .mydividers {
+  display: flex;
+  height: 100%;
+  width: 100%;
+  border: 1px solid gray;
+  background-color: gray;
+}
+
+form {
+  width: 100%;
+}
+
+label {
+  padding-right: 10;
+}
+
+.input-group {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
